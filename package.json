@@ -1,6 +1,6 @@
 {
-  "homepage": "https://github.com/FMAY-Software/fmay.github.io",
-  "name": "fmay.github.io",
+  "homepage": "https://github.com/FMAY-Software/contracting",
+  "name": "contracting",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
