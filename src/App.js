@@ -37,7 +37,7 @@ const App = () => {
         <Switch>
           <AppRoute
             exact
-            path="/contracting"
+            path={process.env.PUBLIC_URL + "/"}
             component={Home}
             layout={LayoutDefault}
           />
