@@ -1,23 +1,34 @@
 {
   "files": {
-    "main.css": "/contracting/static/css/main.5f361e03.chunk.css",
-    "main.js": "/contracting/static/js/main.70dae04a.chunk.js",
-    "main.js.map": "/contracting/static/js/main.70dae04a.chunk.js.map",
-    "runtime-main.js": "/contracting/static/js/runtime-main.87240db2.js",
-    "runtime-main.js.map": "/contracting/static/js/runtime-main.87240db2.js.map",
-    "static/js/2.95f1662e.chunk.js": "/contracting/static/js/2.95f1662e.chunk.js",
-    "static/js/2.95f1662e.chunk.js.map": "/contracting/static/js/2.95f1662e.chunk.js.map",
+    "main.css": "/contracting/static/css/main.827aeb1e.chunk.css",
+    "main.js": "/contracting/static/js/main.3d60448a.chunk.js",
+    "main.js.map": "/contracting/static/js/main.3d60448a.chunk.js.map",
+    "runtime-main.js": "/contracting/static/js/runtime-main.d39217b5.js",
+    "runtime-main.js.map": "/contracting/static/js/runtime-main.d39217b5.js.map",
+    "static/js/2.9351c0b3.chunk.js": "/contracting/static/js/2.9351c0b3.chunk.js",
+    "static/js/2.9351c0b3.chunk.js.map": "/contracting/static/js/2.9351c0b3.chunk.js.map",
     "index.html": "/contracting/index.html",
-    "precache-manifest.daa0e4038847f8953dbbd18eb7451651.js": "/contracting/precache-manifest.daa0e4038847f8953dbbd18eb7451651.js",
+    "precache-manifest.ed9bafbe6293b110ed246113ae1a642a.js": "/contracting/precache-manifest.ed9bafbe6293b110ed246113ae1a642a.js",
     "service-worker.js": "/contracting/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/contracting/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.95f1662e.chunk.js.LICENSE.txt": "/contracting/static/js/2.95f1662e.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/contracting/static/media/logo.5d5d9eef.svg"
+    "static/css/main.827aeb1e.chunk.css.map": "/contracting/static/css/main.827aeb1e.chunk.css.map",
+    "static/js/2.9351c0b3.chunk.js.LICENSE.txt": "/contracting/static/js/2.9351c0b3.chunk.js.LICENSE.txt",
+    "static/media/style.scss": "/contracting/static/media/illustration-section-02.63d0555d.svg",
+    "static/media/feature-tile-icon-01.svg": "/contracting/static/media/feature-tile-icon-01.0f9928d7.svg",
+    "static/media/feature-tile-icon-02.svg": "/contracting/static/media/feature-tile-icon-02.bd39f304.svg",
+    "static/media/feature-tile-icon-03.svg": "/contracting/static/media/feature-tile-icon-03.66f37ba5.svg",
+    "static/media/feature-tile-icon-04.svg": "/contracting/static/media/feature-tile-icon-04.836acd10.svg",
+    "static/media/feature-tile-icon-05.svg": "/contracting/static/media/feature-tile-icon-05.fa9ba00b.svg",
+    "static/media/feature-tile-icon-06.svg": "/contracting/static/media/feature-tile-icon-06.6a177696.svg",
+    "static/media/features-split-image-01.png": "/contracting/static/media/features-split-image-01.d9cb99ce.png",
+    "static/media/features-split-image-02.png": "/contracting/static/media/features-split-image-02.3c569239.png",
+    "static/media/features-split-image-03.png": "/contracting/static/media/features-split-image-03.87e4d053.png",
+    "static/media/logo.svg": "/contracting/static/media/logo.2810a88b.svg",
+    "static/media/video-placeholder.jpg": "/contracting/static/media/video-placeholder.a622fc5d.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.87240db2.js",
-    "static/js/2.95f1662e.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.70dae04a.chunk.js"
+    "static/js/runtime-main.d39217b5.js",
+    "static/js/2.9351c0b3.chunk.js",
+    "static/css/main.827aeb1e.chunk.css",
+    "static/js/main.3d60448a.chunk.js"
   ]
 }
