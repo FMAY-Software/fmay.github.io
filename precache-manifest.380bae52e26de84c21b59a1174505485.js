@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e77dfdb7daefc6f2e8a47bca77dcafb7",
+    "revision": "8a10fe47cbecd36683e8962541b5509d",
     "url": "/contracting/index.html"
   },
   {
-    "revision": "a75a51bd2e7208740fcf",
-    "url": "/contracting/static/css/main.7d4b5681.chunk.css"
+    "revision": "872634240ff983043194",
+    "url": "/contracting/static/css/main.97180b64.chunk.css"
   },
   {
     "revision": "4af1737888d20306854b",
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/contracting/static/js/2.9351c0b3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a75a51bd2e7208740fcf",
-    "url": "/contracting/static/js/main.46e8ef3e.chunk.js"
+    "revision": "872634240ff983043194",
+    "url": "/contracting/static/js/main.c9f2c0b6.chunk.js"
   },
   {
     "revision": "bee2a775f1b38b19f05a",
@@ -70,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "63d0555d90c053eea1a1a7469d004661",
     "url": "/contracting/static/media/illustration-section-02.63d0555d.svg"
-  },
-  {
-    "revision": "2810a88b1d6365b363caeabe678f1629",
-    "url": "/contracting/static/media/logo.2810a88b.svg"
   },
   {
     "revision": "a622fc5dd8adcdd27ea42218385013b4",
