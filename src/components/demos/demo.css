@@ -1,9 +1,14 @@
 .pre-formatting {
     padding: 2px;
+    font-size: 12px;
 }
 
 code {
     text-align: start;
+}
+
+.hljs {
+    font-size: 12px;
 }
 
 .code_area {
