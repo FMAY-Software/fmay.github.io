@@ -14,7 +14,6 @@ const JavaDelivery = (props) => {
     >
       <p style={{margin: 0, marginBottom: 10}}>Final Delivery Package</p>
       <div
-        className="demostration_area"
         style={{
           display: 'flex',
           flexDirection: 'row',
@@ -22,7 +21,7 @@ const JavaDelivery = (props) => {
           justifyContent: 'center',
         }}
       >
-        <div className="code_area">
+        <div className="container-xs">
           <div
             style={{
               display: 'flex',
@@ -47,7 +46,7 @@ const JavaDelivery = (props) => {
             </Highlight>
           </div>
         </div>
-        <div className="code_area">
+        <div className="container-xs">
           <Highlight className="pre-formatting" language="java">
             {`import static org.junit.Assert.assertEquals;
 import org.junit.Test;

@@ -13,6 +13,7 @@
     "react-highlight.js": "^1.0.7",
     "react-router-dom": "^5.1.2",
     "react-scripts": "^3.4.1",
+    "react-step-wizard": "^5.3.2",
     "react-typing-animation": "^1.6.2"
   },
   "repository": {

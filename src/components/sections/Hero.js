@@ -5,8 +5,7 @@ import {SectionProps} from '../../utils/SectionProps'
 // import Button from '../elements/Button'
 // import Image from '../elements/Image'
 // import Modal from '../elements/Modal'
-import JavaDemo from '../demos/java/JavaDemo'
-import JavaDelivery from '../demos/java/JavaDelivery'
+import JavaWizard from '../demos/java/JavaWizard'
 
 const propTypes = {
   ...SectionProps.types,
@@ -100,8 +99,7 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            <JavaDemo />
-            <JavaDelivery />
+            <JavaWizard />
           </div>
         </div>
       </div>

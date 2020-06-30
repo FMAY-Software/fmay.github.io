@@ -2,7 +2,7 @@ import React from 'react'
 import Highlight from 'react-highlight.js'
 import '../demo.css'
 
-const JavaDemo = (props) => {
+const JavaTest = (props) => {
   return (
     <div
       className="demostration_area"
@@ -15,7 +15,7 @@ const JavaDemo = (props) => {
     >
       <div>
         <p style={{margin: 0, marginBottom: 10}}>Your Code</p>
-        <div className="code_area">
+        <div className="container-xs">
           <Highlight className="pre-formatting" language="java">
             {`public class Calculator {
   public int evaluate(String expression) {
@@ -30,7 +30,7 @@ const JavaDemo = (props) => {
       </div>
       <div>
         <p style={{margin: 0, marginBottom: 10}}>Our Test, first delivery</p>
-        <div className="code_area">
+        <div className="container-xs">
           <Highlight className="pre-formatting" language="java">
             {`import static org.junit.Assert.assertEquals;
 import org.junit.Test;
@@ -62,4 +62,4 @@ Tests run: 1,  Failures: 1
   )
 }
 
-export default JavaDemo
+export default JavaTest
