@@ -1,0 +1,12 @@
+.pre-formatting {
+    padding: 2px;
+}
+
+code {
+    text-align: start;
+}
+
+.code_area {
+    min-width: 500px;
+    margin: 20px;
+}
