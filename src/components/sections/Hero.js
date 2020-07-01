@@ -101,7 +101,10 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            <button onClick={() => enablejavaWizard(!enable)}>
+            <button
+              style={{ margin: 10 }}
+              onClick={() => enablejavaWizard(!enable)}
+            >
               Show JavaWizard
             </button>
             {enable && <JavaWizard />}
