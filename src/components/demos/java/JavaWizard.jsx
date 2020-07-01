@@ -1,7 +1,7 @@
-import React from 'react'
-import DemoWizard from '../DemoWizard'
-import JavaTest from './JavaTest'
-import JavaDelivery from './JavaDelivery'
+import React from "react";
+import DemoWizard from "../DemoWizard";
+import JavaTest from "./JavaTest";
+import JavaDelivery from "./JavaDelivery";
 
 const JavaWizard = (props) => {
   return (
@@ -9,7 +9,7 @@ const JavaWizard = (props) => {
       <JavaTest />
       <JavaDelivery />
     </DemoWizard>
-  )
-}
+  );
+};
 
-export default JavaWizard
+export default JavaWizard;
