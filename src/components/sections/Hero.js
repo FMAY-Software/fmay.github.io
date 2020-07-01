@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import classNames from "classnames";
 import { SectionProps } from "../../utils/SectionProps";
 // import ButtonGroup from '../elements/ButtonGroup'
@@ -26,6 +26,7 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
+  const [enable, enablejavaWizard] = useState(false);
   //const [videoModalActive, setVideomodalactive] = useState(false)
 
   // const openModal = (e) => {
@@ -100,7 +101,10 @@ const Hero = ({
             data-reveal-value="20px"
             data-reveal-delay="800"
           >
-            <button onClick={() => enablejavaWizard(!enable)}></button>
+            <button onClick={() => enablejavaWizard(!enable)}>
+              Show JavaWizard
+            </button>
+            {enable && <JavaWizard />}
           </div>
         </div>
       </div>
