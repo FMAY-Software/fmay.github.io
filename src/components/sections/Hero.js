@@ -1,20 +1,19 @@
-import React, { useState } from "react";
-import classNames from "classnames";
-import { SectionProps } from "../../utils/SectionProps";
+import React from 'react'
+import classNames from 'classnames'
+import {SectionProps} from '../../utils/SectionProps'
 // import ButtonGroup from '../elements/ButtonGroup'
 // import Button from '../elements/Button'
 // import Image from '../elements/Image'
 // import Modal from '../elements/Modal'
-import JavaWizard from "../demos/java/JavaWizard";
-import { Link } from "react-router-dom";
+import {Link} from 'react-router-dom'
 
 const propTypes = {
   ...SectionProps.types,
-};
+}
 
 const defaultProps = {
   ...SectionProps.defaults,
-};
+}
 
 const Hero = ({
   className,
@@ -26,7 +25,6 @@ const Hero = ({
   invertColor,
   ...props
 }) => {
-  const [enable, enablejavaWizard] = useState(false);
   //const [videoModalActive, setVideomodalactive] = useState(false)
 
   // const openModal = (e) => {
@@ -40,19 +38,19 @@ const Hero = ({
   // }
 
   const outerClasses = classNames(
-    "hero section center-content",
-    topOuterDivider && "has-top-divider",
-    bottomOuterDivider && "has-bottom-divider",
-    hasBgColor && "has-bg-color",
-    invertColor && "invert-color",
+    'hero section center-content',
+    topOuterDivider && 'has-top-divider',
+    bottomOuterDivider && 'has-bottom-divider',
+    hasBgColor && 'has-bg-color',
+    invertColor && 'invert-color',
     className
-  );
+  )
 
   const innerClasses = classNames(
-    "hero-inner section-inner",
-    topDivider && "has-top-divider",
-    bottomDivider && "has-bottom-divider"
-  );
+    'hero-inner section-inner',
+    topDivider && 'has-top-divider',
+    bottomDivider && 'has-bottom-divider'
+  )
 
   return (
     <section {...props} className={outerClasses}>
@@ -75,47 +73,25 @@ const Hero = ({
                 Test driven results delivered
               </p>
               <div className="reveal-from-bottom" data-reveal-delay="600">
-                {/* <ButtonGroup>
-                  <Button
-                    tag="a"
-                    color="primary"
-                    wideMobile
-                    href="https://cruip.com/"
-                  >
-                    Get started
-                  </Button>
-                  <Button
-                    tag="a"
-                    color="dark"
-                    wideMobile
-                    href="https://github.com/cruip/open-react-template/"
-                  >
-                    View on Github
-                  </Button>
-                </ButtonGroup> */}
+                <div
+                  className="hero-figure reveal-from-bottom illustration-element-01"
+                  data-reveal-value="20px"
+                  data-reveal-delay="800"
+                >
+                  <Link to={'java-demo'}>
+                    <button>Java Demo</button>
+                  </Link>
+                </div>
               </div>
             </div>
-          </div>
-          <div
-            className="hero-figure reveal-from-bottom illustration-element-01"
-            data-reveal-value="20px"
-            data-reveal-delay="800"
-          >
-            <button
-              style={{ margin: 10 }}
-              onClick={() => enablejavaWizard(!enable)}
-            >
-              Show JavaWizard
-            </button>
-            {enable && <JavaWizard />}
           </div>
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-Hero.propTypes = propTypes;
-Hero.defaultProps = defaultProps;
+Hero.propTypes = propTypes
+Hero.defaultProps = defaultProps
 
-export default Hero;
+export default Hero
